@@ -1,0 +1,1 @@
+Eric was working on a reversing challenge last night when his computer was struck by ransomware! Can you decrypt enough of the files to recover the print_flag binary?

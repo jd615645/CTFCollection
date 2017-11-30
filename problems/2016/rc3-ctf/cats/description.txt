@@ -1,0 +1,5 @@
+Decipher the image and find the hidden flag.
+
+http://i.imgur.com/QmlPxbI.gif
+
+Make sure to put ¡§RC3-2016-¡¨ in front of your result.

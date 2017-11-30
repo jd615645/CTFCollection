@@ -1,0 +1,3 @@
+We’ve created a lotto system. Shall we play a game?
+
+nc 23.253.207.179 10001

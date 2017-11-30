@@ -1,0 +1,1 @@
+A zip file is given, wiith an encrypted image and the python script used to encrypt it

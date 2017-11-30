@@ -1,0 +1,3 @@
+We found this very mysterious image, it doesn¡¦t look complete and there seems to be something hidden on it¡K does this mean anything to you?
+
+This flag is not in the standard flag format. The flag contains digits and no special characters, convert the message to lowercase and then add IceCTF{message} to it.

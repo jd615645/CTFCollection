@@ -1,0 +1,1 @@
+https://github.com/ctfs/write-ups-2016/tree/master/angstromctf-2016/crypto/shakespeare-60

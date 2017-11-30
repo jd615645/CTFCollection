@@ -1,0 +1,3 @@
+Can you access the admin page? You can look at the crypto here.
+
+(There should be a webpage, and you have to login to get the flag. But it was closed, so you just need to find how to login as admin.)

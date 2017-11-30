@@ -1,0 +1,3 @@
+A random goat from Boston hashed our password! Can you find the full output?
+
+Note, flag is what would have printed. I.e. TUCTF{0xadeadbeef1dea}

@@ -1,0 +1,5 @@
+The flag is a plaintext.
+
+Ciphertext: GGTTCAATGGGCTTGTCAATGGTTCGCATATCCATGGGCACGGTTCGCGGCTCA
+
+Hint1: Change space to _

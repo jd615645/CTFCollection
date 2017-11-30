@@ -1,0 +1,5 @@
+Your flatmate told you about this delicious yoghurt that he has put into his shelf. Unfortunately you do not know his pin code. However, you recorded the last time he interacted with the refrigerator. Can you take his yoghurt?
+
+The server is the same as for smartfridge1.
+
+Note: this challenge is rate limited

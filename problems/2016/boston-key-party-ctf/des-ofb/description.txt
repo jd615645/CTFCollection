@@ -1,0 +1,3 @@
+Decrypt the message, find the flag, and then marvel at how broken everything is.
+
+flag format looks like this: BKPCTF{*************}

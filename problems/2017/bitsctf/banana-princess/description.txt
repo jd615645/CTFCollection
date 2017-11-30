@@ -1,0 +1,7 @@
+John Hammond | Monday, February 6th, 2017
+
+The princess has been kidnapped! It is up to you to rescue her now, with the help of the minions. They have provided you with a letter (which may or may not have touched the kidnappers hands on its way to you).
+
+Authors - Speeeddy, Blaze
+
+flag format looks like this: BITSCTF{*************}

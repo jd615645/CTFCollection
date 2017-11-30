@@ -1,0 +1,5 @@
+Connect to ssl-added-and-removed-here.ctfcompetition.com:59999
+
+Try our new Cloud Computing Service.
+
+Note: Encrypt and decrypt operations expect base64-encoded input.

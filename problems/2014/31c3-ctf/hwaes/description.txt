@@ -1,0 +1,3 @@
+We implemented AES in hardware and saved a lot of memory. Feel free to use our online AES encryption service to secure your data.
+
+nc 188.40.18.66 2786

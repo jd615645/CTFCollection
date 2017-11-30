@@ -1,0 +1,6 @@
+Description: The club decided to evolve the security of communication for something more efficient and simple to be implemented ¡K simply too much!
+The technique was reproduced in the message encoded below:
+
+GA3TCYZRGU2DKXZXG5PTENZTHAZDSXZQHEYTKMJUGBSV6MBXGFSF6MTDGIYTGYJSMMZTIM3FL4YDOMLCL42GENJRGU2TIOBVGQ2WIXZRGBPTAZQ=
+
+Add CTF-BR{} to submit the resulting hash.

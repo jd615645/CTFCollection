@@ -1,0 +1,1 @@
+http://van.prooyen.com/reversing/cryptography/2016/12/11/Lost-Decryption-Writeup.html

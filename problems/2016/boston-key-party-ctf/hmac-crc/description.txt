@@ -1,0 +1,2 @@
+We're trying a new mac here at BKP---HMAC-CRC. The hmac (with our key) of "zupe zecret" is '0xa57d43a032feb286'.
+What's the hmac of "BKPCTF"? 

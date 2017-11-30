@@ -1,0 +1,7 @@
+Written by GenericNickname
+
+There's a lot of hex strings here. Maybe they're hiding a message? hexstrings
+
+Hint: Thankfully you can solve this without even using a website.
+
+File = hexstrings.txt

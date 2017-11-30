@@ -1,0 +1,1 @@
+https://github.com/zionspike/ctf-writeup/blob/master/Crypto/%5BpicoCTF%202017%5D%20-%20Weird%20RSA%20-%2090/kapi-note.md

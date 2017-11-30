@@ -1,0 +1,1 @@
+You have come across a strange audio recording. Can you recover the flag? Note: The flag is not in the actf{} format.

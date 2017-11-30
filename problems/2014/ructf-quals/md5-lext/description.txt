@@ -1,0 +1,10 @@
+Server (python27.quals.ructf.org:12337) accepts only authorized messages. It works like this:
+-------------------------------
+	buf = c.recv(4096)
+	digest, msg = buf.split(" ", 1)
+	if (digest == md5(password+msg).hexdigest()):
+		#here I send a secret
+	else:
+		c.send("Wrong signature\n")
+-------------------------------
+You have intercepted one authorized message: "b34c39b9e83f0e965cf392831b3d71b8 do test connection". Construct your own authorized message! Answer starts with 'RUCTF_'

@@ -1,0 +1,3 @@
+My site was hacked. The secret was leaked.
+
+flag format looks like this: hitcon{*************}

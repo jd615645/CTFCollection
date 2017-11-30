@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>CTF Write-ups Collection</title>
+  <!-- <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'> -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css'>
+  <style>
+    pre {
+      white-space: -moz-pre-wrap;
+      white-space: -o-pre-wrap;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      padding: 36px;
+      padding-top: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CTF Write-ups Collection</h1>
+  <hr>
+  <a href='/'>←Back to home</a>
+  <div id='container'>
+    <h2 id='prob'></h2>
+    <strong id='ctf'></strong>
+
+    <div id='description-container' style='padding:8px;'>
+      <span>Description</span>
+      <pre id='description'></pre>
+    </div>
+
+    <div id='files-container' style='padding:8px;'>
+      <span>Files</span>
+      <pre id='files'></pre>
+    </div>
+
+    <div id='solution-container' style='padding:8px;'>
+      <span>Solution</span>
+      <pre id='solution'></pre>
+    </div>
+
+    <div id='reference-container' style='padding:8px;'>
+      <span>Reference</span>
+      <pre id='reference'></pre>
+    </div>
+  </div>
+</body>
+
+<script src='./js/jquery-3.2.1.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/js/mdb.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js'></script>
+<script type='text/javascript'>
+  function getDescription(url, type) {
+    $.ajax({
+      url: url + type + '.txt',
+      dataType: 'text',
+      type: 'GET',
+      async: true,
+      statusCode: {
+        404: function(response) {
+          $('#' + type + '-container').remove();
+          console.error(404);
+        },
+        200: function(response) {
+          $('#' + type).text(response);
+        }
+      },
+      error: function(jqXHR, status, errorThrown) {
+        console.error('error');
+      }
+    });
+  }
+
+  function getFile(url, type) {
+    $.ajax({
+      url: url + type + '.txt',
+      dataType: 'text',
+      type: 'GET',
+      async: true,
+      statusCode: {
+        404: function(response) {
+          $('#' + type + '-container').remove();
+          console.error(type + ' 404');
+        },
+        200: function(response) {
+          if (response == '') {
+            $('#' + type + '-container').remove();
+          }
+          for (var file of response.split('\n')) {
+            if (file == '') {
+              continue;
+            }
+            $('#' + type).append(
+              $('<a>').attr('href', url + 'files/' + file).text(file)
+            )
+          }
+        }
+      },
+      error: function(jqXHR, status, errorThrown) {
+        console.error('error');
+      }
+    });
+  }
+
+  function getRef(url, type) {
+    $.ajax({
+      url: url + type + '.txt',
+      dataType: 'text',
+      type: 'GET',
+      async: true,
+      statusCode: {
+        404: function(response) {
+          $('#' + type + '-container').remove();
+          console.error(type + ' 404');
+        },
+        200: function(response) {
+          for (var ref of response.split('\n')) {
+            if (ref == '') {
+              continue;
+            }
+            $('#' + type).append(
+              $('<a>').attr('target', '_blank').attr('href', ref).text(ref)
+            )
+          }
+        }
+      },
+      error: function(jqXHR, status, errorThrown) {
+        console.error('error');
+      }
+    });
+  }
+</script>
+<script type='text/javascript'>
+  var value = window.location.hash.substr(1).split('_');
+  var year = value[0],
+    ctf = value[1],
+    prob = value[2];
+  var url = '/problems/' + year + '/' + ctf + '/' + prob + '/';
+
+  $('title').text(prob + ' | ' + ctf + ' ' + year);
+  $('#prob').text(prob);
+  $('#ctf').text(ctf);
+  // $('#ctf').text(ctf + ' ' + year);
+  $('#solution').append($('<a>').attr('target', '_blank').attr('href', url + 'solution.pdf').text('Click here to get the solution'));
+
+  getDescription(url, 'description');
+  getRef(url, 'reference');
+  getFile(url, 'files');
+</script>
+
+</html>

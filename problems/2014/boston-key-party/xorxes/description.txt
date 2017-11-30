@@ -1,0 +1,1 @@
+Xorxes is a hash collision challenge. The goal is to find a second preimage for the input string "Klaatubaradanikto". Submit it as the flag.

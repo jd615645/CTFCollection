@@ -1,0 +1,4 @@
+Brute and get the base 32 format of flag.
+encrypted.txt: MZYVMIWLGBL7CIJOGJQVOA3IN5BLYC3NHI
+
+flag format looks like this: BITSCTF{*************}

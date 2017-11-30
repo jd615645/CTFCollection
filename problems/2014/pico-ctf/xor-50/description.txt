@@ -1,0 +1,4 @@
+Daedalus has encrypted their blueprints! Can you get us the password? ZOR.py encrypted
+Hint:
+
+The password gets reduced to a one byte XOR key. That's only 256 possible keys!

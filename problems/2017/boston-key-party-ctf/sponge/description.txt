@@ -1,0 +1,1 @@
+I've written a hash function. Come up with a string that collides with "I love using sponges for crypto".
