@@ -3,53 +3,45 @@
 <head>
   <meta charset='utf-8'>
   <title>CTF Write-ups Collection</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css'>
+  <link rel='stylesheet/less' type='text/css' href='./css/main.less'>
+  <link rel='stylesheet/less' type='text/css' href='./css/index.less'>
 </head>
 <body>
-  <div id='app'>
-    <h1>CTF Write-ups Collection</h1>
-    <hr>
-    <div id='container'>
-      <ul>
-        <li v-for='(game, year) in lists'>
-          <h2>{{ year }}</h2>
-          <ul>
-            <li v-for='(topics, name) in game'>
-              <h3>{{ name }}</h3>
-              <ul>
-                <li v-for='topic in topics'>
-                  <a :href='"prob.html#" + year + "_" + name + "_" + topic'>{{ topic }}</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
+  <div id='app' v-cloak>
+    <nav class="navbar navbar-dark indigo">
+      <a class='navbar-brand' href='#'>CTF Write-ups Collection</a>
+    </nav>
+    
+    <div class='container'>
+      <div v-for='(game, year) in lists'>
+        <ul>
+          <li class='collection' v-for='(topics, name) in game'>
+            <h3>{{ name }}</h3>
+            <ul>
+              <li class='topic' v-for='topic in topics'>
+                <a :href=`prob.html#${year}_${name}_${topic}`>
+                  <p class='pro'>{{ topic }}</p>
+                  <p class='year'>{{ year }}</p>
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <script src='./js/jquery-3.2.1.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/js/mdb.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js'></script>
-  <script type='text/javascript'>
-    let vm = new Vue({
-      el: '#app',
-      data() {
-        return {
-          lists: {}
-        }
-      },
-      mounted() {
-        fetch('./index.json')
-          .then((response) => {
-            return response.text()
-          })
-          .then((data) => {
-            this.lists = JSON.parse(data)
-          })
-      }
-    })
-  </script>
+  <script src='./js/lessSetting.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js'></script>
+  <script src='./js/index.js'></script>
 </body>
 
 </html>

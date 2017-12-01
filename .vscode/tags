@@ -1,0 +1,226 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AdminPage	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^class AdminPage(webapp2.RequestHandler):$/;"	kind:class	line:54
+CONST	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^CONST = to_bits(64, 0xabaddeadbeef1dea)$/;"	kind:variable	line:10
+CONST	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^CONST = to_bits(64, 0xabaddeadbeef1dea)$/;"	kind:variable	line:10
+CONST2	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^CONST2 = to_bits(65, (2**64) + 0x1fe67c76d13735f9)$/;"	kind:variable	line:9
+CRC_POLY	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^CRC_POLY = to_bits(65, (2**64) + 0xeff67c77d13835f7)$/;"	kind:variable	line:9
+Cryptographic_program.py	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	1;"	kind:file	line:1
+Dround	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def Dround(block,key):$/;"	kind:function	line:47
+Eround	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def Eround(block,key):$/;"	kind:function	line:32
+F	../problems/2014/hack-you/hashme/files/crypto200.py	/^	def F(X,Y,Z):$/;"	kind:function	line:17
+FLAG	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^FLAG = int(open("flag").read().strip().encode("hex"), 16)$/;"	kind:variable	line:10
+FLAG	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^    FLAG = f.read()$/;"	kind:variable	line:86
+G	../problems/2014/hack-you/hashme/files/crypto200.py	/^	def G(X,Y,Z):$/;"	kind:function	line:19
+GIVEN	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  GIVEN = 'I love using sponges for crypto'$/;"	kind:variable	line:87
+H	../problems/2014/hack-you/hashme/files/crypto200.py	/^	def H(X,Y,Z):$/;"	kind:function	line:21
+HASHER	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  HASHER = Hasher()$/;"	kind:variable	line:84
+HOST	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^  HOST = '0.0.0.0'$/;"	kind:variable	line:49
+Handler	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^class Handler(BaseRequestHandler):$/;"	kind:class	line:18
+HashHandler	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^class HashHandler(BaseHTTPRequestHandler):$/;"	kind:class	line:51
+Hasher	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^class Hasher:$/;"	kind:class	line:6
+I	../problems/2014/hack-you/hashme/files/crypto200.py	/^	def I(X,Y,Z):$/;"	kind:function	line:23
+INNER	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^INNER = to_bits(8, 0x36) * 8$/;"	kind:variable	line:22
+KEY	../problems/2014/hack-you/hashme/files/crypto200.py	/^KEY = ''.decode('hex')$/;"	kind:variable	line:10
+MainPage	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^class MainPage(webapp2.RequestHandler):$/;"	kind:class	line:66
+OUTER	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^OUTER = to_bits(8, 0x5c) * 8$/;"	kind:variable	line:23
+P	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def P(block, permute):$/;"	kind:function	line:15
+PBox	../problems/2014/pico-ctf/block-130/files/block.py	/^PBox = [13, 3, 15, 23, 6, 5, 22, 21, 19, 1, 18, 17, 20, 10, 7, 8, 12, 2, 16, 9, 14, 0, 11, 4]$/;"	kind:variable	line:17
+PInvBox	../problems/2014/pico-ctf/block-130/files/block.py	/^PInvBox = [21, 9, 17, 1, 23, 5, 4, 14, 15, 19, 13, 22, 16, 0, 20, 2, 18, 11, 10, 8, 12, 7, 6, 3]$/;"	kind:variable	line:18
+PLAIN_1	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^PLAIN_1 = "zupe zecret"$/;"	kind:variable	line:31
+PLAIN_1	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^PLAIN_1 = "goatscrt"$/;"	kind:variable	line:25
+PLAIN_2	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^PLAIN_2 = "BKPCTF"$/;"	kind:variable	line:32
+PLAIN_2	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^PLAIN_2 = "tu_ctf??"$/;"	kind:variable	line:26
+PORT	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^  PORT = 65414$/;"	kind:variable	line:50
+RACES.py	../problems/2016/asis-ctf-finals/races/files/RACES.py	1;"	kind:file	line:1
+ROL	../problems/2014/hack-you/hashme/files/crypto200.py	/^	def ROL(X,Y):$/;"	kind:function	line:25
+RROT	../problems/2014/boston-key-party/xorxes/files/xorxes-ad7b52380d3ec704b28954c80119789a.py	/^def RROT(b, n, wsize):$/;"	kind:function	line:4
+ReusableTCPServer	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^class ReusableTCPServer(SocketServer.ForkingMixIn, SocketServer.TCPServer):$/;"	kind:class	line:45
+S	../problems/2014/pico-ctf/block-130/files/block.py	/^def S(block, SBoxes):$/;"	kind:function	line:9
+S	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def S(block, sub):$/;"	kind:function	line:22
+SALT	../problems/2014/hack-you/hashme/files/crypto200.py	/^SALT = ''$/;"	kind:variable	line:8
+SBoxes	../problems/2014/pico-ctf/block-130/files/block.py	/^SBoxes = [[15, 1, 7, 0, 9, 6, 2, 14, 11, 8, 5, 3, 12, 13, 4, 10], [3, 7, 8, 9, 11, 0, 15, 13, 4, 1, 10, 2, 14, 6, 12, 5], [4, 12, 9, 8, 5, 13, 11, 7, 6, 3, 10, 14, 15, 1, 2, 0], [2, 4, 10, 5, 7, 13, 1, 15, 0, 11, 3, 12, 14, 9, 8, 6], [3, 8, 0, 2, 13, 14, 5, 11, 9, 1, 7, 12, 4, 6, 10, 15], [14, 12, 7, 0, 11, 4, 13, 15, 10, 3, 8, 9, 2, 6, 1, 5]]$/;"	kind:variable	line:5
+SHA224	../problems/2014/boston-key-party/xorxes/files/xorxes-ad7b52380d3ec704b28954c80119789a.py	/^def SHA224(m):$/;"	kind:function	line:8
+SInvBoxes	../problems/2014/pico-ctf/block-130/files/block.py	/^SInvBoxes = [[3, 1, 6, 11, 14, 10, 5, 2, 9, 4, 15, 8, 12, 13, 7, 0], [5, 9, 11, 0, 8, 15, 13, 1, 2, 3, 10, 4, 14, 7, 12, 6], [15, 13, 14, 9, 0, 4, 8, 7, 3, 2, 10, 6, 1, 5, 11, 12], [8, 6, 0, 10, 1, 3, 15, 4, 14, 13, 2, 9, 11, 5, 12, 7], [2, 9, 3, 0, 12, 6, 13, 10, 1, 8, 14, 7, 11, 4, 5, 15], [3, 14, 12, 9, 5, 15, 13, 2, 10, 11, 8, 4, 1, 6, 0, 7]]$/;"	kind:variable	line:7
+Server	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^class Server(ForkingMixIn, TCPServer):$/;"	kind:class	line:14
+TARGET	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  TARGET = HASHER.hash(GIVEN)$/;"	kind:variable	line:88
+ThreadedHTTPServer	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):$/;"	kind:class	line:79
+USERS	../problems/2014/hack-you/hashme/files/crypto200.py	/^USERS = set()$/;"	kind:variable	line:9
+ZOR.py	../problems/2014/pico-ctf/xor-50/files/ZOR.py	1;"	kind:file	line:1
+__init__	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def __init__(self):$/;"	kind:member	line:7
+account_encryption.py	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	1;"	kind:file	line:1
+add	../problems/2016/asis-ctf-finals/races/files/RACES.py	/^def add(a, b, n):$/;"	kind:function	line:10
+add_pad	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^def add_pad(msg):$/;"	kind:function	line:13
+allow_reuse_address	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^    allow_reuse_address = True$/;"	kind:variable	line:46
+app	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^app = webapp2.WSGIApplication([$/;"	kind:variable	line:71
+auth	../problems/2014/hack-you/hashme/files/crypto200.py	/^def auth():$/;"	kind:function	line:62
+bits_to_hex	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def bits_to_hex(b):$/;"	kind:function	line:37
+bits_to_hex	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^def bits_to_hex(b):$/;"	kind:function	line:31
+block.py	../problems/2014/pico-ctf/block-130/files/block.py	1;"	kind:file	line:1
+blocks	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	/^blocks = struct.unpack("I" * (len(data) \/ 4), data)$/;"	kind:variable	line:15
+check_prime	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^    def check_prime(self, p):$/;"	kind:member	line:56
+cipher	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	/^cipher = PKCS1_v1_5.new(key)$/;"	kind:variable	line:11
+cipher	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	/^cipher = PKCS1_v1_5.new(key)$/;"	kind:variable	line:9
+color_crypto.py	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	1;"	kind:file	line:1
+compress	../problems/2014/boston-key-party/xorxes/files/xorxes-ad7b52380d3ec704b28954c80119789a.py	/^def compress(m, c):$/;"	kind:function	line:13
+cost	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^cost = 5     # coupon price$/;"	kind:variable	line:13
+crc	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def crc(mesg):$/;"	kind:function	line:12
+crypto-xor.py	../problems/2016/sharif-university-ctf/xor/files/crypto-xor.py	1;"	kind:file	line:1
+crypto200.py	../problems/2014/hack-you/hashme/files/crypto200.py	1;"	kind:file	line:1
+ctxt	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	/^ctxt = bytes_to_long(cipher.encrypt(flag))$/;"	kind:variable	line:12
+ctxt	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	/^ctxt = bytes_to_long(cipher.encrypt(flag))$/;"	kind:variable	line:10
+data	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	/^    data = data + "\\x00" * padding$/;"	kind:variable	line:12
+data	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	/^data = sys.argv[1]$/;"	kind:variable	line:9
+data	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^    data = f.read()$/;"	kind:variable	line:19
+data	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^data = add_pad(data)$/;"	kind:variable	line:21
+data	../update.py	/^    data = {}$/;"	kind:variable	line:6
+decrypt	../problems/2014/pico-ctf/block-130/files/block.py	/^def decrypt(data, key1, key2):$/;"	kind:function	line:62
+decrypt	../problems/2014/pico-ctf/xor-50/files/ZOR.py	/^def decrypt(input_data, password):$/;"	kind:function	line:20
+decrypt	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def decrypt(block,key1,key2,key3):$/;"	kind:function	line:53
+decrypt_data	../problems/2014/pico-ctf/block-130/files/block.py	/^def decrypt_data(data, key):$/;"	kind:function	line:42
+description.py	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	1;"	kind:file	line:1
+description.py	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	1;"	kind:file	line:1
+do_GET	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def do_GET(self):$/;"	kind:member	line:52
+double	../problems/2016/asis-ctf-finals/races/files/RACES.py	/^def double(a, A, n):$/;"	kind:function	line:20
+e	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^e = getPrime(64)$/;"	kind:variable	line:29
+e	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	/^e = 65537L$/;"	kind:variable	line:7
+e	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	/^e = -1  # get it from the provided EXE file$/;"	kind:variable	line:6
+enc	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^    enc = supa_encryption(data[i:i+24], key)$/;"	kind:variable	line:29
+enc	../problems/2017/volgactf/pycrypto/files/encrypt.py	/^        enc = encrypt(flag.encode(), os.urandom(20))$/;"	kind:variable	line:10
+enc27.py	../problems/2017/bitsctf/beginners-luck/files/enc27.py	1;"	kind:file	line:1
+enc_af	../problems/2017/yubitsec/simple-encryption/files/simple_enc.py	/^def enc_af(text):$/;"	kind:function	line:9
+enc_data	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^enc_data = ''$/;"	kind:variable	line:27
+enc_img	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^enc_img = Image.new(flag_img.mode, flag_img.size)$/;"	kind:variable	line:15
+enc_mes	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	/^enc_mes = ""$/;"	kind:variable	line:16
+encrypt	../problems/2014/pico-ctf/block-130/files/block.py	/^def encrypt(data, key1, key2):$/;"	kind:function	line:57
+encrypt	../problems/2014/pico-ctf/xor-50/files/ZOR.py	/^def encrypt(input_data, password):$/;"	kind:function	line:13
+encrypt	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def encrypt(block,key1,key2,key3):$/;"	kind:function	line:38
+encrypt	../problems/2016/asis-ctf-finals/races/files/RACES.py	/^def encrypt(msg, pubkey):$/;"	kind:function	line:50
+encrypt	../problems/2016/sharif-university-ctf/xor/files/crypto-xor.py	/^def encrypt(msg, p, q, r, key):$/;"	kind:function	line:8
+encrypt	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^def encrypt(flag,key):$/;"	kind:function	line:26
+encrypt.py	../problems/2017/uiuctf/high-school-crypto/files/encrypt.py	1;"	kind:file	line:1
+encrypt.py	../problems/2017/volgactf/pycrypto/files/encrypt.py	1;"	kind:file	line:1
+encrypt_data	../problems/2014/pico-ctf/block-130/files/block.py	/^def encrypt_data(data, key):$/;"	kind:function	line:26
+encryption.py	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	1;"	kind:file	line:1
+enpix	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^enpix = enc_img.load()$/;"	kind:variable	line:16
+ext_rsa_encrypt	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^def ext_rsa_encrypt(p, q, e, msg):$/;"	kind:function	line:10
+f	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^f = open('pubkey.pem', 'w')$/;"	kind:variable	line:31
+f	../problems/2017/yubitsec/simple-encryption/files/simple_enc.py	/^f = open("encrypted","w")$/;"	kind:variable	line:3
+filename	../problems/2017/uiuctf/high-school-crypto/files/encrypt.py	/^filename = sys.argv[1]$/;"	kind:variable	line:6
+final_ingest	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def final_ingest(self, block):$/;"	kind:member	line:21
+flag	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^flag = open('flag.txt').read()$/;"	kind:variable	line:9
+flag	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^flag = open('flag', 'r').read() * 30$/;"	kind:variable	line:8
+flag	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	/^flag = b'' # redacted$/;"	kind:variable	line:9
+flag	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	/^flag = b'' # redacted$/;"	kind:variable	line:7
+flag	../problems/2016/sharif-university-ctf/xor/files/crypto-xor.py	/^flag = flag * r$/;"	kind:variable	line:6
+flag_img	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^flag_img = Image.open("flag.png")$/;"	kind:variable	line:10
+from_bits	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def from_bits(N):$/;"	kind:function	line:6
+from_bits	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^def from_bits(N):$/;"	kind:function	line:6
+g	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^g = open('flag.enc', 'w')$/;"	kind:variable	line:33
+gcd	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^def gcd(a, b):$/;"	kind:function	line:101
+gen_cert	../problems/2014/hack-you/hashme/files/crypto200.py	/^def gen_cert(login):$/;"	kind:function	line:43
+gen_keypair	../problems/2016/asis-ctf-finals/races/files/RACES.py	/^def gen_keypair(e, nbit):$/;"	kind:function	line:40
+gen_prime	../problems/2016/asis-ctf-finals/races/files/RACES.py	/^def gen_prime(nbit):$/;"	kind:function	line:4
+get	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^    def get(self):$/;"	kind:member	line:55
+get	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^    def get(self):$/;"	kind:member	line:67
+get_color	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^def get_color(x, y, r):$/;"	kind:function	line:6
+handle	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^    def handle(self):$/;"	kind:member	line:20
+handle	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^  def handle(self):$/;"	kind:member	line:39
+hash	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def hash(self, s):$/;"	kind:member	line:41
+hash.py	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	1;"	kind:file	line:1
+hash_n_bake	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^def hash_n_bake(mesg):$/;"	kind:function	line:12
+hashme	../problems/2014/hack-you/hashme/files/crypto200.py	/^def hashme(s):$/;"	kind:function	line:15
+hbake.py	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	1;"	kind:file	line:1
+hex_l	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^def hex_l(a):$/;"	kind:function	line:31
+hmac	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def hmac(h, key, mesg):$/;"	kind:function	line:28
+hmac.py	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	1;"	kind:file	line:1
+i	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	/^    i = a$/;"	kind:variable	line:12
+im	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^im = flag_img.load()$/;"	kind:variable	line:11
+incoming	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^class incoming(SocketServer.StreamRequestHandler):$/;"	kind:class	line:38
+ingest	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def ingest(self, block):$/;"	kind:member	line:13
+intro	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^intro = [$/;"	kind:variable	line:18
+jekyll	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^def jekyll(data):$/;"	kind:function	line:51
+jekyll-source.py	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	1;"	kind:file	line:1
+jekyll32	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^def jekyll32(data, seed):$/;"	kind:function	line:6
+key	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^key = 'XXXXXXXXXXXXXXXX' # obviously, this is not the real key.$/;"	kind:variable	line:10
+key	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	/^key = RSA.construct((n, e))$/;"	kind:variable	line:10
+key	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	/^key = RSA.construct((n, e))$/;"	kind:variable	line:8
+key	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^    key = f.read()$/;"	kind:variable	line:25
+key	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^key = "key"$/;"	kind:variable	line:4
+key	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	/^key = "J2msBeG8"$/;"	kind:variable	line:4
+key	../problems/2017/uiuctf/high-school-crypto/files/encrypt.py	/^key = sys.argv[2]$/;"	kind:variable	line:7
+lotto.py	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	1;"	kind:file	line:1
+m	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	/^m = []$/;"	kind:variable	line:10
+mai	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^def mai(stringv,key):$/;"	kind:function	line:37
+main	../problems/2014/pico-ctf/block-130/files/block.py	/^def main():$/;"	kind:function	line:71
+main	../problems/2014/pico-ctf/xor-50/files/ZOR.py	/^def main():$/;"	kind:function	line:27
+maxNumber	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^maxNumber = 1000 # we're drawing from 1 to maxNumber$/;"	kind:variable	line:15
+mes	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	/^mes = "*****secret*****"$/;"	kind:variable	line:3
+mic_server.py	../problems/2014/olympic-ctf/mic/files/mic_server.py	1;"	kind:file	line:1
+mix	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def mix(block,key):$/;"	kind:function	line:29
+mix	../problems/2016/google-ctf/jekyll/files/jekyll-source.py	/^    def mix(a, b, c):$/;"	kind:function	line:7
+multiply	../problems/2016/asis-ctf-finals/races/files/RACES.py	/^def multiply(point, exponent, A, n):$/;"	kind:function	line:28
+n	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^n = p*q$/;"	kind:variable	line:28
+n	../problems/2016/sharif-university-ctf/lobotomized-lsb-oracle/files/description.py	/^n = 94169898764475155086179365872915864925768243050855426387910613522303337327416930459077578555524838413579345103633071500300104580298306187507383687796776619261744561887287065152410825040924957174425131901014950571780211869823508452987101620679856181308669517708916215765377471785309709279780997993371462202127$/;"	kind:variable	line:6
+n	../problems/2016/sharif-university-ctf/lsb-oracle/files/description.py	/^n = -1  # get it from the provided EXE file$/;"	kind:variable	line:5
+n	../problems/2017/fit-hack-ctf/simple-cipher/files/encryption.py	/^    n = len(key) - len(mes) % len(key)$/;"	kind:variable	line:7
+num_o_prob	../update.py	/^    num_o_prob = 0$/;"	kind:variable	line:7
+oracle	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^def oracle(s):$/;"	kind:function	line:31
+oracle	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^def oracle(mode,key,inFile,outFile):$/;"	kind:function	line:76
+output	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	/^output = ''$/;"	kind:variable	line:19
+p	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^p = getPrime(128)$/;"	kind:variable	line:26
+pBox	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^pBox = [6, 15, 3, 8, 2, 4, 9, 7, 13, 10, 0, 1, 5, 11, 14, 12]$/;"	kind:variable	line:12
+pBoxInv	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^pBoxInv = [10, 11, 4, 2, 5, 12, 0, 7, 3, 6, 9, 13, 15, 8, 14, 1]$/;"	kind:variable	line:13
+padd	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^def padd(stirng_v1,string_v2):$/;"	kind:function	line:13
+padding	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	/^padding = 4 - len(data) % 4$/;"	kind:variable	line:10
+permute	../problems/2014/pico-ctf/block-130/files/block.py	/^def permute(block, pbox):$/;"	kind:function	line:19
+pkcs7_pad	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^def pkcs7_pad(s):$/;"	kind:function	line:16
+pkcs7_unpad	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^def pkcs7_unpad(s):$/;"	kind:function	line:21
+play	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^def play():$/;"	kind:function	line:40
+pubkey	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^pubkey = RSA.construct((long(n), long(e)))$/;"	kind:variable	line:30
+q	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	/^q = getPrime(128)$/;"	kind:variable	line:27
+r	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^r = random.randint(1, pow(2, 256))$/;"	kind:variable	line:12
+randomExtend	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^def randomExtend(block):$/;"	kind:function	line:31
+raw	../problems/2017/uiuctf/high-school-crypto/files/encrypt.py	/^    raw = plaintext.read()$/;"	kind:variable	line:10
+read_line	../problems/2014/olympic-ctf/mic/files/mic_server.py	/^    def read_line(self, client):$/;"	kind:member	line:91
+register	../problems/2014/hack-you/hashme/files/crypto200.py	/^def register():$/;"	kind:function	line:50
+reset	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def reset(self):$/;"	kind:member	line:10
+result	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	/^result = []$/;"	kind:variable	line:14
+reward	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^reward = 100 # reward for winning$/;"	kind:variable	line:14
+rsa.py	../problems/2016/asis-ctf-finals/rsa/files/rsa.py	1;"	kind:file	line:1
+s	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^			s = get_color(x, y, r)$/;"	kind:variable	line:27
+sBox	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^sBox = [[2, 12, 4, 1, 7, 10, 11, 6, 8, 5, 3, 15, 13, 0, 14, 9],$/;"	kind:variable	line:3
+sBoxInv	../problems/2016/angstromctf/my-accountant/files/account_encryption.py	/^sBoxInv = [[13, 3, 0, 10, 2, 9, 7, 4, 8, 15, 5, 6, 1, 12, 14, 11],$/;"	kind:variable	line:7
+screenWidth	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^screenWidth = 79$/;"	kind:variable	line:16
+secret	../problems/2017/yubitsec/simple-encryption/files/simple_enc.py	/^secret = "***REDACTED***"$/;"	kind:variable	line:5
+secret_data	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^secret_data = 'This is not the real secret data'$/;"	kind:variable	line:11
+server	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^  server = ReusableTCPServer((HOST, PORT), incoming)$/;"	kind:variable	line:52
+server	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  server = ThreadedHTTPServer((sys.argv[1], int(sys.argv[2])), HashHandler)$/;"	kind:variable	line:89
+server.py	../problems/2014/pico-ctf/web-interseption-140/files/server.py	1;"	kind:file	line:1
+shiftcrypt.py	../problems/2015/ekoparty-ctf/xorcrypter/files/shiftcrypt.py	1;"	kind:file	line:1
+simple_enc.py	../problems/2017/yubitsec/simple-encryption/files/simple_enc.py	1;"	kind:file	line:1
+squeeze	../problems/2017/boston-key-party-ctf/sponge/files/hash.py	/^  def squeeze(self):$/;"	kind:member	line:35
+start	../problems/2014/hack-you/hashme/files/crypto200.py	/^def start():$/;"	kind:function	line:80
+start_money	../problems/2014/confidence-ds-ctf-teaser/crypto100/files/lotto.py	/^start_money = 100$/;"	kind:variable	line:12
+str_to_bits	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def str_to_bits(s):$/;"	kind:function	line:34
+str_to_bits	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^def str_to_bits(s):$/;"	kind:function	line:28
+stringv	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^stringv = base64.b64encode("FIT{}")$/;"	kind:variable	line:3
+strint	../problems/2017/fit-hack-ctf/encryption-program-leaked/files/Cryptographic_program.py	/^def strint(str_list1,str_list2):$/;"	kind:function	line:6
+supa_encryption	../problems/2017/bitsctf/beginners-luck/files/enc27.py	/^def supa_encryption(s1, s2):$/;"	kind:function	line:3
+t	../problems/2014/asis-ctf-quals/random-image/files/color_crypto.py	/^		t = random.randint(1, pow(2, 256)) % 250$/;"	kind:variable	line:20
+threadedserver	../problems/2014/pico-ctf/web-interseption-140/files/server.py	/^class threadedserver(SocketServer.ThreadingMixIn, SocketServer.TCPServer):$/;"	kind:class	line:13
+to_bits	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def to_bits(length, N):$/;"	kind:function	line:3
+to_bits	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^def to_bits(length, N):$/;"	kind:function	line:3
+update.py	../update.py	1;"	kind:file	line:1
+usage	../problems/2014/pico-ctf/block-130/files/block.py	/^def usage():$/;"	kind:function	line:67
+usage	../problems/2014/pico-ctf/xor-50/files/ZOR.py	/^def usage():$/;"	kind:function	line:23
+xor	../problems/2014/hack-you/hashme/files/crypto200.py	/^def xor(a, b):$/;"	kind:function	line:12
+xor	../problems/2014/pico-ctf/xor-50/files/ZOR.py	/^def xor(input_data, key):$/;"	kind:function	line:6
+xor	../problems/2016/boston-key-party-ctf/hmac-crc/files/hmac.py	/^def xor(x, y):$/;"	kind:function	line:25
+xor	../problems/2016/tu-ctf/hash-n-bake/files/hbake.py	/^def xor(x, y):$/;"	kind:function	line:22
+xorxes-ad7b52380d3ec704b28954c80119789a.py	../problems/2014/boston-key-party/xorxes/files/xorxes-ad7b52380d3ec704b28954c80119789a.py	1;"	kind:file	line:1
+xorxes_hash	../problems/2014/boston-key-party/xorxes/files/xorxes-ad7b52380d3ec704b28954c80119789a.py	/^def xorxes_hash(m):$/;"	kind:function	line:32
