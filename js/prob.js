@@ -19,7 +19,7 @@ let vm = new Vue({
     this.year = this.value[0]
     this.ctf = this.value[1]
     this.prob = this.value[2]
-    this.url = `../problems/${this.year}/${this.ctf}/${this.prob}/`
+    this.url = `./problems/${this.year}/${this.ctf}/${this.prob}/`
 
     this.getDescription()
     this.getRef()
