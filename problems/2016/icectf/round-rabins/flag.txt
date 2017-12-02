@@ -1,0 +1,1 @@
+IceCTF{cover_your_flags_in_mayonnaise_and_primes_guys}

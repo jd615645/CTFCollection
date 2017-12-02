@@ -6,7 +6,12 @@ let vm = new Vue({
       year: null,
       ctf: null,
       prob: null,
-      url: null
+      url: null,
+      description: '(empty)',
+      files: '',
+      solution: '',
+      reference: '',
+      flag: ''
     }
   },
   mounted() {
@@ -14,89 +19,97 @@ let vm = new Vue({
     this.year = this.value[0]
     this.ctf = this.value[1]
     this.prob = this.value[2]
-    this.url = `/problems/${this.year}/${this.ctf}/${this.prob}/`
+    this.url = `../problems/${this.year}/${this.ctf}/${this.prob}/`
 
-    this.getDescription(this.url, 'description')
-    this.getRef(this.url, 'reference')
-    this.getFile(this.url, 'files')
+    this.getDescription()
+    this.getRef()
+    this.getFile()
+    this.getFlag()
   },
   methods: {
-    getDescription(url, type) {
-      $.ajax({
-        url: url + type + '.txt',
-        dataType: 'text',
-        type: 'GET',
-        async: true,
-        statusCode: {
-          404: function (response) {
-            $('#' + type + '-container').remove()
-            console.error(404)
-          },
-          200: function (response) {
-            $('#' + type).text(response)
+    getFile() {
+      fetch(`${this.url}files.txt`)
+        .then((response) => {
+          if (response.status === 200) {
+            return response.text()
           }
-        },
-        error: function (jqXHR, status, errorThrown) {
-          console.error('error')
-        }
-      })
+          else if (response.status === 404) {
+            this.files = ''
+          }
+        })
+        .then((data) => {
+          if (data === '') {
+            this.files = ''
+          }else {
+            this.files = data.split('\n')
+          }
+        })
+        .catch((error) => {
+          console.error('request failed', error)
+        })
     },
-    getFile(url, type) {
-      $.ajax({
-        url: url + type + '.txt',
-        dataType: 'text',
-        type: 'GET',
-        async: true,
-        statusCode: {
-          404: function (response) {
-            $('#' + type + '-container').remove()
-            console.error(type + ' 404')
-          },
-          200: function (response) {
-            if (response == '') {
-              $('#' + type + '-container').remove()
-            }
-            for (var file of response.split('\n')) {
-              if (file == '') {
-                continue
-              }
-              $('#' + type).append(
-                $('<a>').attr('href', url + 'files/' + file).text(file)
-              )
-            }
+    getDescription() {
+      fetch(`${this.url}description.txt`)
+        .then((response) => {
+          if (response.status === 200) {
+            return response.text()
           }
-        },
-        error: function (jqXHR, status, errorThrown) {
-          console.error('error')
-        }
-      })
+          else if (response.status === 404) {
+            this.description = 'see the file'
+          }
+        })
+        .then((text) => {
+          if (text !== '') {
+            this.description = text
+          }else {
+            this.description = '(empty)'
+          }
+        })
+        .catch((error) => {
+          console.error('request failed', error)
+        })
     },
-    getRef(url, type) {
-      $.ajax({
-        url: url + type + '.txt',
-        dataType: 'text',
-        type: 'GET',
-        async: true,
-        statusCode: {
-          404: function (response) {
-            $('#' + type + '-container').remove()
-            console.error(type + ' 404')
-          },
-          200: function (response) {
-            for (var ref of response.split('\n')) {
-              if (ref == '') {
-                continue
-              }
-              $('#' + type).append(
-                $('<a>').attr('target', '_blank').attr('href', ref).text(ref)
-              )
-            }
+    getRef() {
+      fetch(`${this.url}reference.txt`)
+        .then((response) => {
+          if (response.status === 200) {
+            return response.text()
           }
-        },
-        error: function (jqXHR, status, errorThrown) {
-          console.error('error')
-        }
-      })
+          else if (response.status === 404) {
+            this.reference = ''
+          }
+        })
+        .then((text) => {
+          if (text !== '') {
+            this.reference = text
+          }else {
+            this.reference = ''
+          }
+        })
+        .catch((error) => {
+          console.error('request failed', error)
+        })
+    },
+    getFlag() {
+      fetch(`${this.url}flag.txt`)
+        .then((response) => {
+          if (response.status === 200) {
+            return response.text()
+          }
+          else if (response.status === 404) {
+            this.flag = ''
+          }
+        })
+        .then((text) => {
+          if (text !== '') {
+            this.flag = text
+          }else {
+            this.flag = ''
+          }
+        })
+        .catch((error) => {
+          console.error('request failed', error)
+        })
     }
   }
 })

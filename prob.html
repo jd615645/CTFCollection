@@ -10,38 +10,45 @@
   <link rel='stylesheet/less' type='text/css' href='./css/main.less'>
   <link rel='stylesheet/less' type='text/css' href='./css/prob.less'>
 </head>
-
 <body>
   <div id='app' v-cloak>
     <nav class='navbar navbar-dark indigo'>
-      <a class='navbar-brand' href='#'>CTF Write-ups Collection</a>
+      <a class='navbar-brand' href='../'>CTF Write-ups Collection</a>
     </nav>
-    <a href='../'>←Back to home</a>
 
-    <div class='container' id='container'>
+    <div class='container'>
       <h2 id='prob'>{{ prob }}</h2>
       <strong id='ctf'>{{ ctf }}</strong>
   
-      <div id='description-container' style='padding:8px;'>
+      <div id='description-container'>
         <span>Description</span>
-        <pre id='description'></pre>
+        <pre id='description'>{{ description }}</pre>
       </div>
   
-      <div id='files-container' style='padding:8px;'>
+      <div id='files-container'>
         <span>Files</span>
-        <pre id='files'></pre>
-      </div>
-  
-      <div id='solution-container' style='padding:8px;'>
-        <span>Solution</span>
-        <pre id='solution'>
-          <a :href=`${url}solution.pdf`>Click here to get the solution</a>
+        <pre id='files'>
+          <a :href=`${url}files/${file}` v-for='file in files'>{{ file }}</a>
         </pre>
       </div>
   
-      <div id='reference-container' style='padding:8px;'>
+      <div id='solution-container'>
+        <span>Solution</span>
+        <pre id='solution'>
+          <a :href=`${url}solution.pdf` target='_blank'>Click here to get the solution</a>
+        </pre>
+      </div>
+  
+      <div id='reference-container'>
         <span>Reference</span>
-        <pre id='reference'></pre>
+        <pre id='reference'>
+          <a v-show='reference !== ""' :href='reference' target='_blank'>{{ reference }}</a>
+        </pre>
+      </div>
+
+      <div id='flag-container'>
+        <span>Flag</span>
+        <pre id='flag'>{{ flag }}</pre>
       </div>
     </div>
   </div>

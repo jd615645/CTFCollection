@@ -1,0 +1,1 @@
+VolgaCTF{Classic_secret_sharing_scheme}

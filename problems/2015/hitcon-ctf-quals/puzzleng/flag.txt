@@ -1,0 +1,1 @@
+hitcon{qrencode -s 16 -o flag.png -l H --foreground 8F77B5 --background 8F77B4}

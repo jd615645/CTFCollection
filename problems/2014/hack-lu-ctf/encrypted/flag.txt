@@ -1,0 +1,1 @@
+flag{nobody_needs_server_side_validation}

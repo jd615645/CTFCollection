@@ -1,0 +1,1 @@
+Flag = IceCTF{always_listen_to_your_substitute_flags}

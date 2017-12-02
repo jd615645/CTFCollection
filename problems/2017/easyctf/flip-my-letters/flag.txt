@@ -1,0 +1,1 @@
+easyctf{i_dont_even_need_an_ascii_table}
